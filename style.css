@@ -1,0 +1,31 @@
+/* style.css */
+
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+.website_title {
+    background-color: rgb(157, 185, 175);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 40px 20px 40px;
+} 
+
+.website_menu {
+    background-color: rgb(188, 231, 199);
+    text-align: center;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 6px 6px 6px 6px;
+}
+
+.website_menu#links {
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
